@@ -3,6 +3,8 @@ FROM node:12-alpine
 # Create app directory
 WORKDIR /app
 
+RUN rm -rf /app/*
+
 # Install app dependencies
 COPY package*.json /app
 

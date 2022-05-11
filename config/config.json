@@ -7,10 +7,11 @@
     },
     "sources" : [ 
         {
-            "route": "/test",
-            "sourceFile": "dist/boilerplateSource",
+            "route": "/gipod",
+            "sourceFile": "dist/gipodSource",
             "usesImportPages": false,
-            "importInterval": 5000
+            "importInterval": 5000,
+	    "city": "Bertem"
         }
     ]
 }
